@@ -1,0 +1,37 @@
+body {
+  font-family: font92723, sans-serif; }
+
+h1 {
+  font-size: 4rem;
+  color: #333333;
+  margin: 20px auto; }
+
+p {
+  font-size: 2rem;
+  color: #787878;
+  margin: 0 auto; }
+
+.contenedor {
+  height: 200vh;
+  width: 800px;
+  margin: 0 auto;
+  text-align: center; }
+
+.iphone {
+  display: inline-block;
+  margin-top: 50px;
+  position: relative;
+  transition: 0.1s; }
+
+.shape {
+  background-image: url(../img/shape.jpg);
+  height: 128px;
+  width: 128px;
+  position: absolute;
+  top: 75px;
+  right: 161px;
+  background-position: -54px;
+  -webkit-mask-image: url(../img/apple-mask.png);
+  mask-image: url(../img/apple-mask.png); }
+
+/*# sourceMappingURL=estilos.css.map */
